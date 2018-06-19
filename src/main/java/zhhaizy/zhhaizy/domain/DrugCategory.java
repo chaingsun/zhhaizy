@@ -5,11 +5,11 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(name = "drugCategory")
+@Table(name = "drugCategory" )
 public class DrugCategory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;//id
+    private Integer id;//药品类型id
 
     private String name;//药品类型
 
