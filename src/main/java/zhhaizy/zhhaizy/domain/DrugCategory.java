@@ -11,7 +11,7 @@ public class DrugCategory {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;//药品类型id
 
-    private String name;//药品类型
+    private String name;//修改后的药品类型
 
     public Integer getId() {
         return id;
