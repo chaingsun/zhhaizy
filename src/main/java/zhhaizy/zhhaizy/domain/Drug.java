@@ -1,8 +1,11 @@
 package zhhaizy.zhhaizy.domain;
 
-
 import javax.persistence.*;
 
+/**
+ * springboot
+ * spring-data-jpa
+ */
 @Entity
 @Table(name = "drugs")
 public class Drug {
