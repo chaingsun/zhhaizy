@@ -15,6 +15,7 @@ import zhhaizy.zhhaizy.domain.DrugCategory;
 import zhhaizy.zhhaizy.domain.Result;
 import zhhaizy.zhhaizy.service.DrugCategoryService;
 
+import javax.annotation.Resource;
 import javax.validation.Valid;
 import java.util.List;
 import java.util.logging.Logger;
